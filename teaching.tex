@@ -1,0 +1,52 @@
+\newcommand{\XXX}[1]{{\bf #1}}
+\def\python{{\tt python}}
+\def\astropy{{\tt astropy}}
+
+\def\Q#1#2#3{\item \label{#1} (#2 pts) #3}
+\def\Ans#1#2{{\it #2}}
+\def\NoAns#1#2{\vspace{#1}}
+
+\newcommand{\Def}[1]{{\bf #1}}
+
+% Format for 
+\newcommand{\Ex}[1]{
+\smallskip
+\noindent\fbox{
+\begin{minipage}[h]{6.5in}
+{\bf Example}~#1
+\end{minipage}
+}
+\smallskip
+}
+
+%\newcommand{\Question}[3]{
+%\smallskip
+%\noindent\fbox{
+%\begin{minipage}[h]{6.5in}
+%{\bf Question #1}~#2
+%\vspace{#3in}
+%\end{minipage}
+%}
+%}
+
+\newcommand{\Question}[3]{
+\smallskip
+\begin{mdframed}
+%\noindent\fbox{
+%\begin{minipage}[h]{6.5in}
+% Argument 1 no longer does anything, and we just use the Counter
+{\bf Question \theQuestion}~#2
+\vspace{#3in}
+%\end{minipage}
+\end{mdframed}
+\stepcounter{Question}
+}
+
+\newcommand{\Boxed}[2]{
+\smallskip
+\noindent\fbox{
+\begin{minipage}[h]{#1}
+#2
+\end{minipage}
+\smallskip
+}}

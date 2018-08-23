@@ -1773,6 +1773,13 @@
   year =    {2018}
 }
 
+@Article{ChengParsonsKolopanisEtAl2018,
+  author =  { {Cheng}, C. and {Parsons}, A.~R. and {Kolopanis}, M. and {Jacobs}, D.~C. and {Liu}, A. and {Kohn}, S.~A. and {Pober}, J.~C. and {Aguirre}, J.~E. and {Ali}, Z.~S. and {Bernardi}, G. and {Bradley}, R.~F. and {Carilli}, C.~L. and {DeBoer}, D.~R. and {Dexter}, M.~R. and {Dillon}, J.~S. and {Horrell}, J. and and {Klima}, P. and {MacMahon}, D.~H.~E. and {Moore}, D.~F. and {Nunhokee}, C.~D. and {Walbrugh}, W.~P. and {Walker}, A. },
+  title =   {Characterizing Signal Loss, Error, and Bias in the 21 cm Reionization Power Spectrum: A Revised Study of PAPER-64},
+  journal = {in prep},
+  year =    {2018}
+}
+
 @Article{chyzy10,
   author =   {{Chy{\.z}y}, K.~T.},
   title =    {{Magnetic fields in dwarfs versus early-type galaxies}},
@@ -4503,13 +4510,6 @@
   eprint =        {1802.04151},
   keywords =      {Astrophysics - Instrumentation and Methods for Astrophysics},
   primaryclass =  {astro-ph.IM}
-}
-
-@Article{kolopanis18,
-  author =  { {Cheng}, C. and {Parsons}, A.~R. and {Kolopanis}, M. and {Jacobs}, D.~C. and {Liu}, A. and {Kohn}, S.~A. and {Pober}, J.~C. and {Aguirre}, J.~E. and {Ali}, Z.~S. and {Bernardi}, G. and {Bradley}, R.~F. and {Carilli}, C.~L. and {DeBoer}, D.~R. and {Dexter}, M.~R. and {Dillon}, J.~S. and {Horrell}, J. and and {Klima}, P. and {MacMahon}, D.~H.~E. and {Moore}, D.~F. and {Nunhokee}, C.~D. and {Walbrugh}, W.~P. and {Walker}, A. },
-  title =   {Characterizing Signal Loss, Error, and Bias in the 21 cm Reionization Power Spectrum: A Revised Study of PAPER-64},
-  journal = {in prep},
-  year =    {2018}
 }
 
 @Article{kolopanis18,
