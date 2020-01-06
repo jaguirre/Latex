@@ -1,3 +1,8 @@
+\newcommand{\ABCD}[4]{\ensuremath{\left[\begin{array}{cc} #1 & #2 \\ #3 & #4\end{array}\right]}}
+\newcommand{\XY}[2]{\ensuremath{\left[\begin{array}{c}#1 \\ #2\end{array}\right]}}
+\newcommand{\Angstrom}{\mbox{\normalfont\AA}}
+\newcommand{\der}[2]{\ensuremath{\frac{d #1}{d #2}}}
+
 \newcommand{\vect}[1]{\mathbf{#1}}
 \newcommand{\xad}{\vect{x}}
 
@@ -6,7 +11,7 @@
 \newcommand{\lsim}{{_{<}\atop^{\sim}}}
 \newcommand{\gsim}{{_{>}\atop^{\sim}}}
 \newcommand{\etal}{{et al.\/}}
-\newcommand{\ie}{{\em ie.\/}}
+%\newcommand{\ie}{{\em ie.\/}}
 \newcommand{\cmq}{cm{$^{-3}$}}
 \newcommand{\per}{$^{\rm{-1}}$}
 \newcommand{\tc}{{$\theta^1$~Orionis~C}}
@@ -52,7 +57,7 @@
 \newcommand{\vs}{\vspace*{2pt}}
 \newcommand{\hs}{\hspace*{10pt}}
 %\newcommand{\etal}{{et al.}\ }
-\newcommand{\eg}{e.g.}
+%\newcommand{\eg}{e.g.}
 \newcommand{\ul}{\underline}
 \newcommand{\mc}{\ensuremath{M_{\chi}}}
 \newcommand{\sigv}{\ensuremath{\langle\sigma v\rangle_{\chi}}}
@@ -76,8 +81,8 @@
 \def\m{\ensuremath{\rm m}}
 \def\Ang{\ensuremath{\rm \AA}}
 
-\newcommand{\G}[2]{\ensuremath{g_{#1 #2}}}
-\newcommand{\gxi}{\G{x}{i}}
+%\newcommand{\G}[2]{\ensuremath{g_{#1 #2}}}
+%\newcommand{\gxi}{\G{x}{i}}
 
 % Math formatting
 \newcommand{\half}{\ensuremath{\frac{1}{2}}}
@@ -89,7 +94,7 @@
 % Deprecated
 \def\imply{\Rightarrow}
 
-\def\To{\rightarrow}
+\def\To{\ensuremath{\rightarrow}}
 
 \def\arcdeg{\ensuremath{^\circ}}
 \def\arcmin{\ensuremath{'}}
